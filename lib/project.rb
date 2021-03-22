@@ -7,9 +7,9 @@ class Project
     # initializes with a @backers attribute, an empty array
   end
 
-  def add_backer(backers)
-    @backers << backers
-    backer.projects << self
+  def add_backer(backer)
+    @backers << backer
+    backer.backed_projects << self
   # accepts a Backer as an argument and stores it in a backers array
   # also adds the project to the backer's backed_projects array
   end
