@@ -9,8 +9,8 @@ class Backer
   end
 
   def back_project(backed_projects)
-    @backed_projects << backed_projects
-projcet.backers << self
+    @backed_projects << projects
+    projcet.backers << self
     # accepts a Project as an argument and stores it in a backed_projects array
     # also adds the backer to the project's backers array
   end
